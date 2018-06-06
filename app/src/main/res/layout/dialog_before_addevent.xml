@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/dialog_booking_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="商家端4/21可booking時間為:"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/dialog_booking_title"
+        android:text="09:00 - 09:30"
+        />
+    <Button
+        android:id="@+id/before_addevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="繼續新增"
+        />
+
+</RelativeLayout>

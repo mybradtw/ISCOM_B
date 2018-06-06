@@ -1,6 +1,7 @@
 package tw.brad.iscom_c;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -9,6 +10,7 @@ import android.graphics.drawable.Drawable;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -328,5 +330,20 @@ public class CalendarView extends View {
         setLayoutParams(new LinearLayout.LayoutParams((int)viewW, (int)(lastY+4)));
     }
 
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        float ex = event.getX(), ey = event.getY();
+        float titleY = 10 + textSize + 4;
+        float line1Y = titleY + (textSize / 3) + 4;
+        float week1Y = line1Y + textSize + 4;
+        float week1cont1Y = week1Y + textSize + 4;
 
+        if (ex >= 0 * cellW + 6 && ex <= 1 * cellW - 6 &&
+                ey >= week1cont1Y - textSize && ey <= week1cont1Y + 8){
+            Intent intent = new Intent(getContext(), DetailScheduleActivity.class);
+            getContext().startActivity(intent);
+        }
+
+        return super.onTouchEvent(event);
+    }
 }
