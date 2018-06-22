@@ -82,7 +82,7 @@
         android:layout_weight="14"
         android:orientation="vertical"
         >
-        <tw.brad.iscom_c.CalendarView
+        <tw.brad.iscom_b.CalendarView
             android:id="@+id/calendar_cal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

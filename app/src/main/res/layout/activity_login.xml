@@ -25,17 +25,21 @@
         android:orientation="vertical"
         >
         <EditText
+            android:id="@+id/login_account"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="請輸入帳號..."
             android:textSize="24sp"
+            android:singleLine="true"
             />
         <EditText
+            android:id="@+id/login_passwd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:hint="請輸入密碼..."
             android:textSize="24sp"
+            android:singleLine="true"
             />
 
         <Button

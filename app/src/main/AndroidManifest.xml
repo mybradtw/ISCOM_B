@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tw.brad.iscom_c">
+    package="tw.brad.iscom_b">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -50,7 +50,14 @@
         <activity android:name=".LastwordMyActivity" />
         <activity android:name=".LastwordMyViewActivity" />
         <activity android:name=".LastwordMyDownloadActivity" />
-        <activity android:name=".LastwordMySettingActivity"></activity>
+        <activity android:name=".LastwordMySettingActivity" />
+        <activity android:name=".LastwordMySettingListActivity" />
+        <activity android:name=".FeeDetailActivity" />
+        <activity android:name=".ProjectListActivity" />
+        <activity android:name=".ProjectAddActivity" />
+        <activity android:name=".EditProjectActivity" />
+        <activity android:name=".CustListActivity" />
+        <activity android:name=".MyQRCodeActivity"></activity>
     </application>
 
 </manifest>

@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:hint="請輸入帳號..."
+        android:singleLine="true"
         />
     <EditText
         android:id="@+id/register_passwd"
@@ -35,6 +36,8 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:hint="請輸入密碼..."
+        android:inputType="textPassword"
+        android:singleLine="true"
         />
     <EditText
         android:id="@+id/register_name"
@@ -42,6 +45,7 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:hint="請輸入姓名..."
+        android:singleLine="true"
         />
     <EditText
         android:id="@+id/register_id"
@@ -49,6 +53,7 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:hint="請輸入身分證統一編號..."
+        android:singleLine="true"
         />
     <EditText
         android:id="@+id/register_address"
@@ -56,6 +61,7 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:hint="請輸入地址..."
+        android:singleLine="true"
         />
     <EditText
         android:id="@+id/register_tel"
@@ -63,6 +69,7 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:hint="請輸入電話..."
+        android:singleLine="true"
         />
     <EditText
         android:id="@+id/register_mobile"
@@ -70,6 +77,7 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:hint="請輸入手機..."
+        android:singleLine="true"
         />
     <EditText
         android:id="@+id/register_email"
@@ -77,6 +85,7 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:hint="請輸入信箱..."
+        android:singleLine="true"
         />
     <Button
         android:layout_width="match_parent"

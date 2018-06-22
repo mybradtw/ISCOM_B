@@ -102,7 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="修改存放位置"
+            android:text="查看存放位置"
             android:onClick="view"
             />
     </LinearLayout>

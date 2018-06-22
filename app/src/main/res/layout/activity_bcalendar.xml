@@ -38,7 +38,7 @@
         android:layout_weight="14"
         android:orientation="vertical"
         >
-        <tw.brad.iscom_c.BCalendarView
+        <tw.brad.iscom_b.BCalendarView
             android:id="@+id/bcalendarView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
